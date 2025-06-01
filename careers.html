@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="images/shape-30.png" type="">
+    <!-- Font Awesome CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-[#191919]">
+    
+ <!-- Header -->
+  <header class="sticky top-0 z-100 w-[90%] md:w-[80%] mx-auto mt-4 px-4 py-4 bg-[#0f0f0f] rounded-full flex items-center justify-between text-[#FFFFFF]">
+    <!-- Logo -->
+    <div class="flex items-center space-x-2">
+      <img src="images/shape-30.png" alt="YourBank Logo" class="w-6">
+      <span class="text-lg font-semibold">YourBank</span>
+    </div>
+
+    <!-- Navbar Links -->
+    <nav class="hidden lg:flex space-x-6 items-center">
+      <a href="index.html" class="hover:text-lime-400 transition">Home</a>
+      <a href="careers.html" class="hover:text-lime-400 transition">Careers</a>
+      <a href="about.html" class="hover:text-lime-400 transition">About</a>
+      <a href="security.html" class="hover:text-lime-400 transition">Security</a>
+    </nav>
+
+    <!-- Right Side Buttons -->
+    <div class="flex items-center space-x-4">
+      <!-- Hamburger: only mobile -->
+      <button id="menuToggle" class="lg:hidden flex flex-col space-y-1 order-1">
+        <span class="w-6 h-0.5 bg-white"></span>
+        <span class="w-6 h-0.5 bg-white"></span>
+        <span class="w-6 h-0.5 bg-white"></span>
+      </button>
+
+      <!-- Buttons -->
+      <a href="signup.html" class="text-sm px-4 py-2 order-2">Sign Up</a>
+      <a href="login.html" class="bg-lime-400 text-black text-sm px-4 py-2 rounded-full order-3">Login</a>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="lg:hidden hidden fixed top-[90px] left-1/2 transform -translate-x-1/2 z-50 flex-col bg-[#0f0f0f] w-[80%] text-white px-4 py-6 space-y-6 rounded-2xl shadow-lg">
+    <a href="#home" class="hover:text-lime-400 transition">Home</a>
+    <a href="#careers" class="hover:text-lime-400 transition">Careers</a>
+    <a href="#about" class="hover:text-lime-400 transition">About</a>
+    <a href="#security" class="hover:text-lime-400 transition">Security</a>
+  </div>
+<!--Header end-->
+
+<!--hero -->
+
+<section class="w-full h-auto mt-20 flex flex-col justify-center items-center">
+  <div class="w-[90%] bg-[#1C1C1C] flex flex-col justify-center items-center bg-no-repeat bg-[top_right]" style="background-image: url('images/Abstract Design (2).png');">
+
+    <!-- Decorative line (optional) -->
+    <div class="bg-no-repeat bg-[top_right] w-full h-auto p-1 md:ml-[-50px]"></div>
+
+    <!-- Main content container: responsive -->
+    <div class="relative flex flex-col md:flex-row w-full mx-auto mt-5">
+
+      <!-- Right Div (Image) - appears first on mobile -->
+      <div class="relative z-10 w-full md:w-1/2 h-auto shadow-lg p-2 order-1 md:order-2 md:translate-x-[-40px]">
+        <img src="images/man.png" alt="people" class="w-full h-auto object-cover rounded-2xl">
+      </div>
+
+      <!-- Left Div (Text) - appears second on mobile -->
+      <div class="relative z-20 bg-[#1A1A1A] w-full md:w-1/2 h-auto md:h-70 shadow-lg  sm:p-0 md:p-10 rounded-xl rounded-br-[80px] md:ruonded-br-[100px]  mt-1 order-2 md:order-1 translate-x-0 md:translate-x-20">
+        <h1 class="text-[#FFFF] text-4xl p-2 ">Welcome to <span class="text-[#CAFF33]">YourBank</span> Careers!</h1>
+        <p class="text-[#B3B3B3] text-[12px] sm:text-[8px] md:text-sm p-2 mb-2  ">
+          Join our team and embark on a rewarding journey in the banking industry. At YourBank, we are committed to fostering a culture of excellence and providing opportunities for professional growth. With a focus on innovation, customer service, and integrity, we strive to make a positive impact in the lives of our customers and communities. Join us today and be a part of our mission to shape the future of banking.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!--Our values-->
+
+
+<section class="mt-10 w-full h-auto ">
+
+    <div class="p-10 md:p-15">
+        <h1 class="text-[#FFFF] text-5xl">Our <span class="text-[#CAFF33]">Values</span></h1><br>
+        <p class="text-[#B3B3B3] text-sm md:w-[80%]">At YourBank, our values form the foundation of our organization and guide our actions. We believe in upholding the highest standards of integrity, delivering exceptional service, and embracing innovation. These values define our culture and shape the way we work together to achieve our goals.</p>
+    </div>
+
+
+    <div class="grid grid-cols-12">
+
+<div class=" w-full h-40 flex gap-3 p-10 col-span-12 md:col-span-6 justify-center items-center">
+<div class="h-18 w-0.5 md:h-35  bg-[#CAFF33]"></div>
+<div><h1 class="text-[#4C4C4D] text-3xl md:text-5xl mb-1 md:mb-5">Integrity</h1>
+<p class="text-[#B3B3B3] text-[8px] md:text-sm">We conduct ourselves with utmost honesty, transparency, and ethical behavior. We <br>believe in doing what is right for our customers, colleagues, and stakeholders, even<br> when faced with difficult choices.</p></div>
+</div>
+
+
+<div class=" w-full  h-40 flex gap-3 p-10  col-span-12 md:col-span-6 justify-center items-center">
+<div class="h-18 w-0.5 md:h-35  bg-[#CAFF33] "></div>
+<div><h1 class="text-[#4C4C4D] text-3xl md:text-5xl mb-1 md:mb-5">Customer Centricity</h1>
+<p class="text-[#B3B3B3] text-[8px] sm:text-[8px] md:text-sm">Our customers are at the heart of everything we do. We are dedicated to<br> understanding their needs, providing personalized solutions, and delivering<br> exceptional service that exceeds expectations.</p></div>
+</div>
+
+    </div><br><br><br>
+
+
+
+    <div class="grid grid-cols-12">
+
+<div class=" w-full h-40 flex gap-3 p-10 col-span-12 md:col-span-6 justify-center items-center">
+<div class="h-18 w-0.5 md:h-35  bg-[#CAFF33]"></div>
+<div><h1 class="text-[#4C4C4D] text-3xl md:text-5xl mb-1 md:mb-5">Collaboration</h1>
+<p class="text-[#B3B3B3] text-[8px] md:text-sm">We foster a collaborative and inclusive work environment, where teamwork and<br> diversity are celebrated. By leveraging the unique strengths and perspectives of our <br> employees, we drive innovation and achieve greater success together.</p></div>
+</div>
+
+
+<div class=" w-full  h-40 flex gap-3 p-10  col-span-12 md:col-span-6 justify-center items-center">
+<div class="h-18 w-0.5 md:h-35  bg-[#CAFF33]"></div>
+<div><h1 class="text-[#4C4C4D] text-3xl md:text-5xl mb-1 md:mb-5">Innovation</h1>
+<p class="text-[#B3B3B3] text-[8px] md:text-sm">We embrace change and constantly seek innovative solutions to meet <br> evolving needs of our customers. We encourage our employees to think creatively,<br>challenge conventions, and explore new ideas to drive the future of banking.</p></div>
+</div>
+
+    </div>
+
+
+
+
+</section>
+
+
+
+
+<section class="mt-10">
+
+
+ <div class="p-10 md:p-15">
+        <h1 class="text-[#FFFF] text-5xl">Our <span class="text-[#CAFF33]">Benefits</span></h1><br>
+        <p class="text-[#B3B3B3] text-sm md:w-[80%]">At YourBank, we value our employees and are dedicated to their well-being and success. We offer a comprehensive range of benefits designed to support their personal and professional growth.</p>
+    </div>
+
+
+
+    <div class="grid grid-cols-12 p-10 gap-10">
+
+
+        <div class="bg-[#1C1C1C] bg-cover w-full p-10 rounded-sm rounded-tl-4xl rounded-br-4xl col-span-12 md:col-span-6  bg-gradient-to-br from-[#CAFF33] to-[#1C1C1C00]"  style="background-image: linear-gradient(to bottom right, #CAFF331A, #1C1C1C00 20%), url('images/bg (2).png');">
+            <div class="flex gap-2 justify-start items-center">    <div class="relative w-16 h-16 rounded-full flex items-center justify-center overflow-hidden">
+
+    <!-- Gradient Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-t from-transparent to-[#CAFF33]/20"></div>
+
+    <!-- Icon Background -->
+    <div class="relative w-12 h-12  rounded-full flex items-center justify-center text-black text-xl z-10  inset-0 bg-gradient-to-t from-transparent to-[#CAFF33]/30">
+      <i class="fas fa-chart-column"></i>
+    </div>
+  </div>   <h2 class="text-3xl text-[#FFFFFF]">Competitive Compensation</h2></div>
+            <p class="text-[#FFFFFF] text-sm p-1 mt-10">We provide a competitive salary package that recognizes the skills and<br> expertise of our employees. YourBank believes in rewarding exceptional<br> performance and offering opportunities for financial growth.</p>
+
+        </div>
+
+
+        <div class="bg-[#1C1C1C] bg-cover w-full p-10 rounded-sm rounded-bl-4xl rounded-tr-4xl col-span-12 md:col-span-6  bg-gradient-to-br from-[#CAFF33] to-[#1C1C1C00]"  style="background-image: linear-gradient(to bottom right, #CAFF331A, #1C1C1C00 20%), url('images/bg (2).png');">
+            <div class="flex gap-2 justify-start items-center">    <div class="relative w-16 h-16 rounded-full flex items-center justify-center overflow-hidden">
+
+    <!-- Gradient Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-t from-transparent to-[#CAFF33]/20"></div>
+
+    <!-- Icon Background -->
+    <div class="relative w-12 h-12  rounded-full flex items-center justify-center text-black text-xl z-10  inset-0 bg-gradient-to-t from-transparent to-[#CAFF33]/30">
+     
+<i class="fas fa-lightbulb text-[#CAFF33]"></i>
+
+    </div>
+  </div>   <h2 class="text-3xl text-[#FFFFFF]">Health and Wellness</h2></div>
+            <p class="text-[#FFFFFF] text-sm p-1 mt-10">We prioritize the health and well-being of our employees by providing <br>comprehensive medical, dental, and vision insurance plans. We also offer<br> wellness programs, gym memberships, and resources to support a healthy<br> lifestyle.</p>
+
+        </div>
+
+    </div>
+
+
+
+
+    
+    <div class="grid grid-cols-12 p-10 gap-10">
+
+
+        <div class="bg-[#1C1C1C] bg-cover w-full p-10 rounded-sm rounded-tl-4xl rounded-br-4xl col-span-12 md:col-span-6  bg-gradient-to-br from-[#CAFF33] to-[#1C1C1C00]"  style="background-image: linear-gradient(to bottom right, #CAFF331A, #1C1C1C00 20%), url('images/bg (2).png');">
+            <div class="flex gap-2 justify-start items-center">    <div class="relative w-16 h-16 rounded-full flex items-center justify-center overflow-hidden">
+
+    <!-- Gradient Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-t from-transparent to-[#CAFF33]/20"></div>
+
+    <!-- Icon Background -->
+    <div class="relative w-12 h-12  rounded-full flex items-center justify-center text-black text-xl z-10  inset-0 bg-gradient-to-t from-transparent to-[#CAFF33]/30">
+      <i class="fas fa-building text-[#CAFF33]"></i>
+    </div>
+  </div>   <h2 class="text-3xl text-[#FFFFFF]">Competitive Compensation</h2></div>
+            <p class="text-[#FFFFFF] text-sm p-1 mt-10">We provide a competitive salary package that recognizes the skills and<br> expertise of our employees. YourBank believes in rewarding exceptional<br> performance and offering opportunities for financial growth.</p>
+
+        </div>
+
+
+        <div class="bg-[#1C1C1C] bg-cover w-full p-10 rounded-sm rounded-bl-4xl rounded-tr-4xl col-span-12 md:col-span-6  bg-gradient-to-br from-[#CAFF33] to-[#1C1C1C00]"  style="background-image: linear-gradient(to bottom right, #CAFF331A, #1C1C1C00 20%), url('images/bg (2).png');">
+            <div class="flex gap-2 justify-start items-center">    <div class="relative w-16 h-16 rounded-full flex items-center justify-center overflow-hidden">
+
+    <!-- Gradient Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-t from-transparent to-[#CAFF33]/20"></div>
+
+    <!-- Icon Background -->
+    <div class="relative w-12 h-12  rounded-full flex items-center justify-center text-black text-xl z-10  inset-0 bg-gradient-to-t from-transparent to-[#CAFF33]/30">
+     
+<i class="fas fa-briefcase-medical text-[#CAFF33]"></i>
+    </div>
+  </div>   <h2 class="text-3xl text-[#FFFFFF]">Health and Wellness</h2></div>
+            <p class="text-[#FFFFFF] text-sm p-1 mt-10">We prioritize the health and well-being of our employees by providing <br>comprehensive medical, dental, and vision insurance plans. We also offer<br> wellness programs, gym memberships, and resources to support a healthy<br> lifestyle.</p>
+
+        </div>
+
+    </div>
+
+
+
+</section>
+
+
+
+
+
+
+<section>
+
+     <div class="p-10 md:p-20">
+        <h1 class="text-[#CAFF33] text-5xl">Job Openings</h1><br>
+        <p class="text-[#B3B3B3] text-sm md:w-[80%]">At YourBank, our values form the foundation of our organization and guide our actions. We believe in upholding the highest standards of integrity, delivering exceptional service, and embracing innovation. These values define our culture and shape the way we work together to achieve our goals.</p>
+    </div>
+
+<div class="grid grid-cols-12 p-20 gap-10 ml-[-50px] md:ml-[-0]">
+
+    
+    <div class=" mx-auto bg-[#1C1C1C] text-white p-6 rounded-xl shadow-lg space-y-6 col-span-12 md:col-span-6">
+  <!-- Title -->
+  <h2 class="text-xl font-semibold">Relationship Manager</h2>
+
+  <!-- Badges -->
+  <div class="flex gap-3">
+    <span class="bg-[#262626] text-sm px-3 py-1 rounded-full">Location: India</span>
+    <span class="bg-[#262626] text-sm px-3 py-1 rounded-full">Department: Retail Banking</span>
+  </div>
+
+  <!-- About This Job -->
+  <div>
+    <h3 class="font-semibold text-lg mb-2">About This Job</h3>
+    <p class="text-[#B3B3B3] text-sm leading-relaxed">
+      As a Relationship Manager at YourBank, you will be responsible for developing and maintaining relationships with our valued customers. You will proactively identify their financial needs and offer tailored solutions to help them achieve their goals. We are seeking individuals with excellent communication skills, a strong sales acumen, and a passion for delivering exceptional customer service.
+    </p>
+  </div>
+
+  <!-- Requirements & Qualifications -->
+  <div>
+    <h3 class="font-semibold text-lg mb-3">Requirements & Qualifications</h3>
+    <ul class="space-y-2 text-sm text-[#B3B3B3]">
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i>
+ Bachelor’s degree in Business, Finance, or a related field</li>
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i> Minimum of 3 years of experience in sales or relationship management in the banking industry</li>
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i> Proven track record of meeting and exceeding sales targets</li>
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i> Excellent interpersonal and negotiation skills</li>
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i> Strong knowledge of banking products and services</li>
+    </ul>
+  </div>
+
+  <!-- Button -->
+  <div>
+    <button class="bg-[#CAFF33] hover:bg-lime-300 text-black font-semibold px-5 py-2 rounded-full text-sm">
+      Apply Now
+    </button>
+  </div>
+</div>
+
+
+ 
+    <div class=" mx-auto bg-[#1C1C1C] text-white p-6 rounded-xl shadow-lg space-y-6 col-span-12 md:col-span-6">
+  <!-- Title -->
+  <h2 class="text-xl font-semibold">Relationship Manager</h2>
+
+  <!-- Badges -->
+  <div class="flex gap-3">
+    <span class="bg-[#262626] text-sm px-3 py-1 rounded-full">Location: India</span>
+    <span class="bg-[#262626] text-sm px-3 py-1 rounded-full">Department: Retail Banking</span>
+  </div>
+
+  <!-- About This Job -->
+  <div>
+    <h3 class="font-semibold text-lg mb-2">About This Job</h3>
+    <p class="text-[#B3B3B3] text-sm leading-relaxed">
+      As a Relationship Manager at YourBank, you will be responsible for developing and maintaining relationships with our valued customers. You will proactively identify their financial needs and offer tailored solutions to help them achieve their goals. We are seeking individuals with excellent communication skills, a strong sales acumen, and a passion for delivering exceptional customer service.
+    </p>
+  </div>
+
+  <!-- Requirements & Qualifications -->
+  <div>
+    <h3 class="font-semibold text-lg mb-3">Requirements & Qualifications</h3>
+    <ul class="space-y-2 text-sm text-[#B3B3B3]">
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i>
+ Bachelor’s degree in Business, Finance, or a related field</li>
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i> Minimum of 3 years of experience in sales or relationship management in the banking industry</li>
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i> Proven track record of meeting and exceeding sales targets</li>
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i> Excellent interpersonal and negotiation skills</li>
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i> Strong knowledge of banking products and services</li>
+    </ul>
+  </div>
+
+  <!-- Button -->
+  <div>
+    <button class="bg-[#CAFF33] hover:bg-lime-300 text-black font-semibold px-5 py-2 rounded-full text-sm">
+      Apply Now
+    </button>
+  </div>
+</div>
+
+
+
+ 
+    <div class=" mx-auto bg-[#1C1C1C] text-white p-6 rounded-xl shadow-lg space-y-6 col-span-12 md:col-span-6">
+  <!-- Title -->
+  <h2 class="text-xl font-semibold">Relationship Manager</h2>
+
+  <!-- Badges -->
+  <div class="flex gap-3">
+    <span class="bg-[#262626] text-sm px-3 py-1 rounded-full">Location: India</span>
+    <span class="bg-[#262626] text-sm px-3 py-1 rounded-full">Department: Retail Banking</span>
+  </div>
+
+  <!-- About This Job -->
+  <div>
+    <h3 class="font-semibold text-lg mb-2">About This Job</h3>
+    <p class="text-[#B3B3B3] text-sm leading-relaxed">
+      As a Relationship Manager at YourBank, you will be responsible for developing and maintaining relationships with our valued customers. You will proactively identify their financial needs and offer tailored solutions to help them achieve their goals. We are seeking individuals with excellent communication skills, a strong sales acumen, and a passion for delivering exceptional customer service.
+    </p>
+  </div>
+
+  <!-- Requirements & Qualifications -->
+  <div>
+    <h3 class="font-semibold text-lg mb-3">Requirements & Qualifications</h3>
+    <ul class="space-y-2 text-sm text-[#B3B3B3]">
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i>
+ Bachelor’s degree in Business, Finance, or a related field</li>
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i> Minimum of 3 years of experience in sales or relationship management in the banking industry</li>
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i> Proven track record of meeting and exceeding sales targets</li>
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i> Excellent interpersonal and negotiation skills</li>
+      <li class="flex items-start gap-2"><i class="fas fa-circle text-xs mt-1 text-[#CAFF33]"></i> Strong knowledge of banking products and services</li>
+    </ul>
+  </div>
+
+  <!-- Button -->
+  <div>
+    <button class="bg-[#CAFF33] hover:bg-lime-300 text-black font-semibold px-5 py-2 rounded-full text-sm">
+      Apply Now
+    </button>
+  </div>
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+<section class="container mx-auto px-4 py-16 md:py-24">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-50 mb-4"><span class="text-[#CAFF33]">Frequently</span> Asked Questions</h2>
+        <p class="text-gray-400 max-w-3xl mb-12">
+            Still you have any questions? Contact our Team via <a href="mailto:support@yourbank.com" class="text-green-400 hover:underline">support@yourbank.com</a>
+            </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-[#262626] p-5 rounded-lg">
+                <h3 class="text-xl font-semibold text-gray-50 mb-3">How do I open an account with YourBank?</h3><hr class="w-full h-1 text-black mt-6 mb-4">
+                <p class="text-gray-400">
+                    Opening an account with YourBank is easy. Simply visit our website and click on the "Open an Account" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help.
+                </p>
+                </div>
+
+            <div class="bg-[#262626] p-5 rounded-lg">
+                <h3 class="text-xl font-semibold text-gray-50 mb-3">What documents do I need to provide to apply for a loan?</h3><hr class="w-full h-1 text-black mt-6 mb-4">
+                <p class="text-gray-400">
+                    The documents required for a loan application may vary depending on the type of loan you are applying for. Generally, you will need to provide identification documents (such as a passport or driver's license), proof of income (such as pay stubs or tax returns), and bank statements. Our experienced loan officers will guide you through the specific requirements during the application process.
+                </p>
+            </div>
+
+            <div class="bg-[#262626] p-5 rounded-lg">
+                <h3 class="text-xl font-semibold text-gray-50 mb-3">How can I access my accounts online?</h3><hr class="w-full h-1 text-black mt-6 mb-4">
+                <p class="text-gray-400">
+                    Accessing your accounts online is simple and secure. Visit our website and click on the "Login" button. Enter your username and password to access your accounts. If you haven't registered for online banking, click on the "Enroll Now" link to get started. For security reasons, if you need assistance, our customer support team is available to guide you.
+                </p>
+            </div>
+
+            <div class="bg-[#262626] p-5 rounded-lg">
+                <h3 class="text-xl font-semibold text-gray-50 mb-3">Are my transactions and personal information secure?</h3><hr class="w-full h-1 text-black mt-6 mb-4">
+                <p class="text-gray-400">
+                    At YourBank, we prioritize the security of your transactions and personal information. We employ industry-leading encryption and multi-factor authentication to ensure that your data is protected. Additionally, we regularly conduct security audits and updates to maintain a robust defense against potential threats. Your peace of mind is our top priority, and we are committed to providing a secure banking environment.
+                </p>
+            </div>
+        </div>
+<div class="flex justify-center items-center mt-5">
+  <button class="px-6 py-3 bg-[#1C1C1C] text-white rounded-full flex items-center justify-center space-x-2 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50">
+    <span>Load All FAQ's</span>
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+    </svg>
+  </button>
+</div>
+    </section>
+
+<div class="flex flex-col md:flex-row justify-between items-center w-[90%] md:ml-15 mb-20 " style="background-image: url(images/bg.png);">
+  <div class="text-[#FFFFFF] bg-no-repeat mt-10 rounded-2xl  " style="background-image: url(images/Abstrack.png);">
+    <h2 class="text-4xl p-2 ml-5 mb-10">Start your financial journey with <span class="text-[#CAFF33]">YourBank today!</span></h2>
+    <p class="text-sm ml-5 mb-10">Ready to take control of your finances? Join YourBank now, and let us help you achieve your financial goals with our tailored<br> solutions and exceptional customer service</p><br>
+  </div>
+  <button class="w-40 h-15 bg-[#CAFF33] p-3 rounded-full cursor-pointer hover:bg-amber-200 hover:text-black md:mr-10 mb-4">Open Account</button>
+</div>
+
+
+
+
+<footer class="flex flex-col justify-center items-center bg-[#1C1C1C] w-full h-auto p-5">
+
+    <div class="flex gap-1 items-center mt-10">
+        <img src="images/shape-30.png" alt="Logo">
+        <h3 class="text-[#FFFFFF] text-2xl">YourBank</h3>
+    </div>
+
+    <div class="mt-10 mb-10">
+        <ul class="text-[#FFFFFF] flex gap-5 ">
+            <li class="hover:bg-gray-700 px-1 rounded-full"><a href="index.html">Home</a></li>
+            <li class="hover:bg-gray-700 px-1 rounded-full"><a href="Careers.html">Careers</a></li>
+            <li class="hover:bg-gray-700 px-1 rounded-full"><a href="About.html">About</a></li>
+            <li class="hover:bg-gray-700 px-1 rounded-full"><a href="Security.html">Security</a></li>
+        </ul>
+    </div>
+    <hr class="w-[85%] h-1 bg-[#262626]">
+
+
+    <div class="mb-5 text-center flex flex-col sm:flex-row sm:space-x-8 space-y-4 sm:space-y-0 items-center text-[#FFFFFF] mt-5 ">
+                <p class="flex items-center text-sm">
+                    <i class="fas fa-envelope mr-2 text-[#CAFF33]"></i>
+                    hello@skillbridge.com
+                </p>
+                <p class="flex items-center text-sm">
+                    <i class="fas fa-phone mr-2 text-[#CAFF33]"></i>
+                    +91 91013 23 2309
+                </p>
+                <p class="flex items-center text-sm">
+                    <i class="fas fa-map-marker-alt mr-2 text-[#CAFF33]"></i>
+                    Somewhere in the World
+                </p>
+            </div>
+            <hr class="w-[85%] h-1 bg-[#262626] mb-8">
+
+            
+            <div class=" w-[85%] grid grid-cols-12 justify-between items-center bg-[#1A1A1A] rounded-full p-3">
+
+                <div class="flex space-x-2 mb-4 sm:mb-0 col-span-12 md:col-span-4 justify-center md:justify-start">
+                    <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-[#CAFF33] hover:bg-green-600 transition-colors duration-200 ">
+                        <i class="fab fa-facebook-f text-black"></i>
+                    </a>
+                    <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-[#CAFF33] hover:bg-green-600 transition-colors duration-200">
+                        <i class="fab fa-twitter text-black"></i>
+                    </a>
+                    <a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-[#CAFF33] hover:bg-green-600 transition-colors duration-200">
+                        <i class="fab fa-linkedin-in text-black"></i>
+                    </a>
+                </div>
+
+ <div class="flex flex-col sm:flex-row text-center sm:text-right space-y-2 sm:space-y-0 sm:space-x-4 text-[#B3B3B3] col-span-12 md:col-span-4">
+                    <p>&copy; YourBank All Rights Reserved</p></div>
+
+
+                     <div class="flex space-x-2 justify-center sm:justify-end text-[#B3B3B3] col-span-12 md:col-span-4">
+                        <a href="#" class="hover:text-white transition-colors duration-200">Privacy Policy</a>
+                        <span class="text-gray-600">|</span>
+                        <a href="#" class="hover:text-white transition-colors duration-200">Terms of Service</a>
+                    </div>
+
+
+            </div>
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
